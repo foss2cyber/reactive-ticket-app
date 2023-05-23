@@ -69,7 +69,14 @@ function App() {
       <footer className="w-full h-36 bottom-0 left-0 right-0 fixed z-[100] bg-zinc-200">
         <div className="flex flex-col lg:flex-row xl:flex-row flex-nowrap justify-between items-center space-x-auto gap-4 space-y-2 m-2 p-4">
           <h3 className="inline-flex text-slate-500 hover:text-[#111] ease-in duration-300 delay-100">
-            <span className="cursor-pointer">Reactive Ticket App</span>
+            <a
+              href="https://reactive-ticket-app.vercel.app/"
+              title="Reactive Ticket App"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Reactive Ticket App
+            </a>
           </h3>
         </div>
         <hr className="border-[#111] mx-2" />
