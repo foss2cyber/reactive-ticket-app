@@ -47,9 +47,7 @@ function App() {
             </p>
             <br />
             <p className="text-green-600">
-              <span className="font-medium text-slate-500">
-                Network Status Code:
-              </span>{" "}
+              <span className="font-medium text-slate-500">Status Code:</span>{" "}
               {ticket.code}
             </p>
             <br />
